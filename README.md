@@ -1,4 +1,4 @@
-PowerShell_Module
+PowerShell Module
 =================
 
-simple function to make live easyer
+simple functions to make live easyer at the command line!
