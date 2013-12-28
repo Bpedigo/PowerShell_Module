@@ -8,7 +8,7 @@ simple functions to make life at the command line easyer!
   
 ======================================================================================  
 
-Add-Numbers
+Add-Numbers                                                                          1
 
   
 SYNOPSIS:  Adds two numbers given to it.
@@ -21,7 +21,7 @@ EXAMPLE:   Add-Numbers 1 2
 ========================================================================================
 
  
-Dir_Stat
+Dir_Stat                                                                              2
 
  
 
