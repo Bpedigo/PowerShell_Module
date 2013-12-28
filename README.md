@@ -9,22 +9,14 @@ simple functions to make live easyer at the command line!
 ======================================================================================  
 
 
-NAME:
-
-   Add-Numbers
+NAME:      Add-Numbers
 
   
-SYNOPSIS:
+SYNOPSIS:  Adds two numbers given to it.
 
-   Adds two numbers given to it.
-
-SYNTAX:
-
-   Add-Numbers <arg1> <arg2>
+SYNTAX:    Add-Numbers arg1 arg2
    
-EXAMPLE:
-
-   Add-Numbers 1 2
+EXAMPLE:   Add-Numbers 1 2
 
 
     
