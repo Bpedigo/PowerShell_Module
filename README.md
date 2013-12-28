@@ -8,8 +8,7 @@ simple functions to make live easyer at the command line!
   
 ======================================================================================  
 
-
-NAME:      Add-Numbers
+Add-Numbers
 
   
 SYNOPSIS:  Adds two numbers given to it.
@@ -23,8 +22,7 @@ EXAMPLE:   Add-Numbers 1 2
 ========================================================================================
 
  
-NAME:
-  Dir_Stat
+Dir_Stat
 
  
 
@@ -33,19 +31,17 @@ SYNOPSIS:
     Also counts the number of lines inside the file type you have given it.
 
 
-SYNTAX:
-   Dir_Stat [<ps>,<py>,<rb>,<cpp>,<h>]
+SYNTAX:  Dir_Stat ps py rb cpp h
 
-EXAMPLE:
-    dir_stat ps
+EXAMPLE: dir_stat ps
 
  
 DESCRIPTION:
-    Passing the <ps> argument will find all PowerShell file in the current working directory and count the lines of     code.
-    Passing the <py> argument will find all Python files in the current working directory and count the lines of        code.
-    Passing the <rb> argument will find all Ruby files in the current working directory and count the lines of code.
-    Passing the <cpp> argument will find all C++ files in the current working directory and count the lines of code.
-    Passing the <h> argument will bring up help. 
+    Passing the ps argument will find all PowerShell file in the current working directory and count the lines of       code.
+    Passing the py argument will find all Python files in the current working directory and count the lines of          code.
+    Passing the rb argument will find all Ruby files in the current working directory and count the lines of code.
+    Passing the cpp argument will find all C++ files in the current working directory and count the lines of code.
+    Passing the h argument will bring up help. 
 
  
 
