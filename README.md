@@ -9,17 +9,17 @@ simple functions to make live easyer at the command line!
 ======================================================================================  
 
 
-NAME
+NAME:
    Add-Numbers
 
   
-SYNOPSIS
+SYNOPSIS:
    Adds two numbers given to it.
 
-SYNTAX
+SYNTAX:
    Add-Numbers <arg1> <arg2>
    
-EXAMPLE   
+EXAMPLE:   
    Add-Numbers 1 2
    1 + 2 = 3
 
@@ -27,24 +27,24 @@ EXAMPLE
 ========================================================================================
 
  
-NAME
+NAME:
   Dir_Stat
 
  
 
-SYNOPSIS
+SYNOPSIS:
     Counts the number of files in the current directory.
     Also counts the number of lines inside the file type you have given it.
 
 
-SYNTAX
+SYNTAX:
    Dir_Stat [<ps>,<py>,<rb>,<cpp>,<h>]
 
-EXAMPLE
+EXAMPLE:
     dir_stat ps
 
  
-DESCRIPTION
+DESCRIPTION:
     Passing the <ps> argument will find all PowerShell file in the current working directory and count the lines of     code.
     Passing the <py> argument will find all Python files in the current working directory and count the lines of        code.
     Passing the <rb> argument will find all Ruby files in the current working directory and count the lines of code.
@@ -58,30 +58,30 @@ DESCRIPTION
 ============================================================================================
 
  
-NAME
+NAME:
   google
 
  
-SYNOPSIS
+SYNOPSIS:
    Opens internet explorer and navigates to www.google.com and searches the terms you provide as an argument.
 
  
-SYNTAX
+SYNTAX:
    Google <"search term here">
 
  
 =============================================================================================
 
  
-NAME 
+NAME: 
   grep
 
  
-SYNOPSIS
+SYNOPSIS:
   Searches through files for the search term you provide it
 
  
-SYNTAX
+SYNTAX:
    Grep <"search term here">
 
  
@@ -89,17 +89,17 @@ SYNTAX
 ============================================================================================
 
  
-NAME
+NAME:
   list
 
  
 
-SYNOPSIS
+SYNOPSIS:
   Shows the all available functions in the BTPDSL module
 
  
 
-SYNTAX
+SYNTAX:
   list <no arguments>
 
  
@@ -107,16 +107,16 @@ SYNTAX
 ===========================================================================================
 
  
-NAME
+NAME:
   log_history
 
  
 
-SYNOPSIS
+SYNOPSIS:
    Writes the current PowerShell sessions history to a file and adds a date stamp.
 
 
-SYNTAX
+SYNTAX:
   log_history <no arguments>
 
  
@@ -124,20 +124,21 @@ SYNTAX
 ===========================================================================================
 
  
-NAME
+NAME:
   Methods
 
  
 
-SYNOPSIS
+SYNOPSIS:
   Displays the methods available to that object in a grid out view
 
  
-SYNTAX
+SYNTAX:
   <Object> | methods
 
 
-EXAMPLE
+EXAMPLE:
+
   Get-date | methods
 
 ===========================================================================================   
