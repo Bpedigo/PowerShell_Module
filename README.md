@@ -31,7 +31,7 @@ SYNOPSIS:
     Also counts the number of lines inside the file type you have given it.
 
 
-SYNTAX:  Dir_Stat ps py rb cpp h
+SYNTAX:  Dir_Stat <"PS, PY, CPP, RB, H">
 
 EXAMPLE: dir_stat ps
 
@@ -50,8 +50,7 @@ DESCRIPTION:
 ============================================================================================
 
  
-NAME:
-  google
+google
 
  
 SYNOPSIS:
@@ -65,8 +64,7 @@ SYNTAX:
 =============================================================================================
 
  
-NAME: 
-  grep
+grep
 
  
 SYNOPSIS:
@@ -81,8 +79,7 @@ SYNTAX:
 ============================================================================================
 
  
-NAME:
-  list
+list
 
  
 
@@ -92,17 +89,16 @@ SYNOPSIS:
  
 
 SYNTAX:
-  list <no arguments>
+  list <"no arguments">
 
  
 
 ===========================================================================================
 
  
-NAME:
-  log_history
 
- 
+log_history
+
 
 SYNOPSIS:
    Writes the current PowerShell sessions history to a file and adds a date stamp.
@@ -116,88 +112,79 @@ SYNTAX:
 ===========================================================================================
 
  
-NAME:
-  Methods
+Methods
 
  
-
 SYNOPSIS:
   Displays the methods available to that object in a grid out view
 
  
-SYNTAX:
-  <Object> | methods
+SYNTAX: <"Object"> | methods
 
 
-EXAMPLE:
-
-  Get-date | methods
+EXAMPLE:  Get-date | methods
 
 ===========================================================================================   
 
  
-NAME
-  obj_Veiw
+obj_Veiw
 
  
-SYNOPSIS
+SYNOPSIS:
   Displays the all properties and methods available to that object in a grid out view
 
  
-SYNTAX
-  <object > | obj_view
+SYNTAX:
+  <"object"> | obj_view
 
-EXAMPLE
+EXAMPLE:
    Get-date | obj_view 
 
 ==========================================================================================
 
  
-NAME
-  pandora
+pandora
 
  
-SYNOPSIS
+SYNOPSIS:
   Opens internet explorer and navigates to www.pandora.com
 
  
-SYNTAX
-  Pandora <no arguments>
+SYNTAX:
+  Pandora <"no arguments">
 
  
 
 ==========================================================================================
 
  
-NAME
-  ps_info
+ps_info
 
  
-SYNOPSIS
+SYNOPSIS:
   this displays the current PowerShell version, .Net Version , and the current scripting setting.
 
 
-SYNTAX
-  ps_info <no arguments>
+SYNTAX:
+  ps_info <"no arguments">
 
  
 
 ============================================================================================
 
  
-NAME 
-  Repeat
+Repeat
 
  
-SYNOPSIS
+SYNOPSIS:
   This will repeat a command or string as many times as you request.
 
  
-SYNTAX
-   Repeat <#of times> {the hear string to be repeated}   
+SYNTAX:
+   Repeat <"#of times"> {the hear string to be repeated}   
 
  
-EXAMPLES
+EXAMPLES:
     repeat 3 {"hello world"} 
     repeat 3 {speak {"PowerShell is fun!"}}
 
@@ -206,20 +193,18 @@ EXAMPLES
 ===========================================================================================
 
  
-NAME
-  Speak
+Speak
 
  
-
-SYNOPSIS
+SYNOPSIS:
   This will make the computer speak what you tell it to.
 
  
-SYNTAX
+SYNTAX:
   speak {"text to be spoken by the computer"}
 
  
-EXAMPLE
+EXAMPLE:
   speak {"PowerShell is fun!"}
 
  
@@ -227,19 +212,18 @@ EXAMPLE
 ==========================================================================================
 
  
-NAME 
-  Times
+Times
 
  
-SYNOPSIS
+SYNOPSIS:
   This will repeat a command or string as many times as you request.
 
  
-SYNTAX
-  <#of times> | times {the hear string to be repeated}
+SYNTAX:
+  <"#of times"> | times {the hear string to be repeated}
 
  
-EXAMPLE
+EXAMPLE:
   3 | times {"HELLO WORLD"}
   4 | times {speak{"PowerShell is fun!"}
 
@@ -248,13 +232,12 @@ EXAMPLE
 ==========================================================================================
 
  
-NAME
-  view_history
+view_history
 
 
-SYNOPSIS
+SYNOPSIS:
   This allows the user to view the history log created by the log_history function.
 
  
-SYNTAX
+SYNTAX:
    view_history <no arguments>
