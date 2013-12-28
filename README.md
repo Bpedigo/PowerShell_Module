@@ -1,7 +1,7 @@
 PowerShell Module
 =================
 
-simple functions to make live easyer at the command line!
+simple functions to make life at the command line easyer!
 
 
   
@@ -18,7 +18,6 @@ SYNTAX:    Add-Numbers arg1 arg2
 EXAMPLE:   Add-Numbers 1 2
 
 
-    
 ========================================================================================
 
  
@@ -44,9 +43,6 @@ DESCRIPTION:
     Passing the h argument will bring up help. 
 
  
-
- 
-
 ============================================================================================
 
  
