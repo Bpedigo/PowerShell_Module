@@ -27,7 +27,7 @@ EXAMPLE:   Add-Numbers 1 2 100 235
 
 SYNOPSIS:
     Counts the number of files in the current directory.
-    Also, counts and highlights the number files with the following file extensions:
+    Also, counts and highlights files with the following file extensions:
     .ps .py .cpp .rb .exe
 
 
