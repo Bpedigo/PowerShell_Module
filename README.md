@@ -11,36 +11,28 @@ simple functions to make life at the command line easyer!
 1.) Add-Numbers                                                                          
 
   
-SYNOPSIS:  Adds two numbers given to it.
+SYNOPSIS:  Adds any numbers given to it.
 
-SYNTAX:    Add-Numbers arg1 arg2
+SYNTAX:    Add-Numbers arg1 arg2 ag3 ect...
    
-EXAMPLE:   Add-Numbers 1 2
+EXAMPLE:   Add-Numbers 1 2 100 235 
 
 
 ========================================================================================
 
  
-2.) Dir_Stat                                                                              
+2.) Bir                                                                              
 
  
 
 SYNOPSIS:
     Counts the number of files in the current directory.
-    Also counts the number of lines inside the file type you have given it.
+    Also, counts and highlights the number files with the following file extensions:
+    .ps .py .cpp .rb .exe
 
 
-SYNTAX:  Dir_Stat <"PS, PY, CPP, RB, H">
+SYNTAX:  Bir <"no arguments">
 
-EXAMPLE: dir_stat ps
-
- 
-DESCRIPTION:
-    Passing the ps argument will find all PowerShell file in the current working directory and count the lines of       code.
-    Passing the py argument will find all Python files in the current working directory and count the lines of          code.
-    Passing the rb argument will find all Ruby files in the current working directory and count the lines of code.
-    Passing the cpp argument will find all C++ files in the current working directory and count the lines of code.
-    Passing the h argument will bring up help. 
 
  
 ============================================================================================
