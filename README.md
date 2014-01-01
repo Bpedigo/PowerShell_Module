@@ -31,7 +31,7 @@ SYNOPSIS:
     .ps .py .cpp .rb .exe
 
 
-SYNTAX:  Bir <"no arguments">
+SYNTAX:  Bir <"pramaters">
 
 
  
@@ -77,7 +77,7 @@ SYNOPSIS:
  
 
 SYNTAX:
-  list <"no arguments">
+  list <"no pramaters">
 
  
 
@@ -93,7 +93,7 @@ SYNOPSIS:
 
 
 SYNTAX:
-  log_history <no arguments>
+  log_history <no pramaters>
 
  
 
@@ -139,7 +139,7 @@ SYNOPSIS:
 
  
 SYNTAX:
-  Pandora <"no arguments">
+  Pandora <"no pramaters">
 
  
 
@@ -154,7 +154,7 @@ SYNOPSIS:
 
 
 SYNTAX:
-  ps_info <"no arguments">
+  ps_info <"no pramaters">
 
  
 
@@ -228,4 +228,4 @@ SYNOPSIS:
 
  
 SYNTAX:
-   view_history <no arguments>
+   view_history <no pramaters>
