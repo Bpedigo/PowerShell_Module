@@ -13,7 +13,7 @@ simple functions to make life at the command line easyer!
   
 SYNOPSIS:  Adds any numbers given to it.
 
-SYNTAX:    Add-Numbers arg1 arg2 ag3 ect...
+SYNTAX:    Add-Numbers args1 args2 args3 ect...
    
 EXAMPLE:   Add-Numbers 1 2 100 235 
 
@@ -31,7 +31,7 @@ SYNOPSIS:
     .ps .py .cpp .rb .exe
 
 
-SYNTAX:  Bir <"pramaters">
+SYNTAX:  Bir <"no pramaters">
 
 
  
